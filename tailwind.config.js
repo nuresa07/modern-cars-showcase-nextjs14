@@ -12,9 +12,7 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
-        black: {
-          100: "#2B2C35",
-        },
+        "black-100": "#2B2C35",
         "primary-blue": {
           DEFAULT: "#2B59FF",
           100: "#F5F8FF",
@@ -29,7 +27,7 @@ module.exports = {
       backgroundImage: {
         'pattern': "url('/pattern.png')",
         'hero-bg': "url('/hero-bg.png')"
-      },
+      }
     },
   },
   plugins: [],
